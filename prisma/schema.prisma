@@ -1,0 +1,121 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model CareHomeSubmission {
+  id                    String   @id @default(cuid())
+  careHomeName          String
+  residentCount         String
+  recordingMethod       String
+  recordingMethodOther  String?
+  biggestChallenge      String?
+  detailsLostFrequency  String
+  timePerShift          String?
+  wouldFindEasier       String
+  instantSummaries      Int      @default(0)
+  centralHistory        Int      @default(0)
+  shiftCommunication    Int      @default(0)
+  reducedAdmin          Int      @default(0)
+  concerns              String?
+  willingToTrial        String
+  contactName           String?
+  contactRole           String?
+  contactEmail          String?
+  contactPhone          String?
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+}
+
+model PatientSubmission {
+  id                    String   @id @default(cuid())
+  ageRange              String
+  currentHealthcare     String
+  chronicConditions     String?
+  biggestFrustration    String?
+  forgottenDetails      String
+  appointmentPrep       String?
+  likelyToUse           String
+  neverForget           Int      @default(0)
+  betterAppointments    Int      @default(0)
+  onePlace              Int      @default(0)
+  privacy               Int      @default(0)
+  concerns              String?
+  monthlyPrice          String?
+  willingToTest         String
+  contactName           String?
+  contactEmail          String?
+  contactPhone          String?
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+}
+
+model PrivateGPSubmission {
+  id                    String   @id @default(cuid())
+  practiceName          String
+  practiceType          String
+  practitionerCount     String
+  patientsPerMonth      String
+  biggestChallenge      String?
+  averageConsultTime    String
+  historyGatheringTime  String
+  patientPreparation    String
+  timeEfficiency        Boolean  @default(false)
+  patientSatisfaction   Boolean  @default(false)
+  clinicalQuality       Boolean  @default(false)
+  whiteLabel            Boolean  @default(false)
+  multiLanguage         Boolean  @default(false)
+  lifestyleData         Boolean  @default(false)
+  planType              String
+  concerns              String?
+  willingToPilot        String
+  contactName           String?
+  contactRole           String?
+  contactEmail          String?
+  contactPhone          String?
+  additionalInfo        String?
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+}
+
+model NHSGPSubmission {
+  id                    String   @id @default(cuid())
+  role                  String
+  roleOther             String?
+  practiceSize          String
+  historyTakingTime     String
+  missingInfoFrequency  String
+  wouldImproveEfficiency String
+  redFlags              Int      @default(0)
+  timeline              Int      @default(0)
+  medicationHistory     Int      @default(0)
+  emrIntegration        Int      @default(0)
+  concerns              String?
+  willingToTrial        String
+  contactName           String?
+  contactRole           String?
+  contactEmail          String?
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+}
+
+model ContactSubmission {
+  id                    String   @id @default(cuid())
+  name                  String
+  email                 String
+  phone                 String?
+  company               String?
+  userType              String
+  subject               String
+  message               String
+  emailSent             Boolean  @default(false)
+  emailMessageId        String?
+  createdAt             DateTime @default(now())
+}
