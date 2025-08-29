@@ -33,7 +33,7 @@ export default function PatientsPage() {
       />
 
       {/* The Problem Section */}
-      <section className="min-h-screen flex items-center">
+      <section className="py-12 lg:py-16">
         <div className="container mx-auto px-4">
           <ScrollReveal 
             containerClassName="text-3xl font-bold text-center mb-12"
@@ -96,7 +96,7 @@ export default function PatientsPage() {
       </section>
 
       {/* How It Works - Visual 3-Step Flow */}
-      <section className="min-h-screen flex items-center bg-slate-50">
+      <section className="py-12 lg:py-16 bg-slate-50">
         <div className="container mx-auto px-4">
           <ScrollReveal 
             containerClassName="text-3xl font-bold text-center mb-12"
@@ -144,7 +144,7 @@ export default function PatientsPage() {
       </section>
 
       {/* Benefits for Patients */}
-      <section className="min-h-screen flex items-center">
+      <section className="py-12 lg:py-16">
         <div className="container mx-auto px-4">
           <ScrollReveal 
             containerClassName="text-3xl font-bold text-center mb-12"
@@ -195,7 +195,7 @@ export default function PatientsPage() {
       </section>
 
       {/* Example Scenario - Emma's Story */}
-      <section className="min-h-screen flex items-center bg-gradient-to-b from-slate-50 to-white">
+      <section className="py-12 lg:py-16 bg-gradient-to-b from-slate-50 to-white">
         <div className="container mx-auto px-4">
           <ScrollReveal 
             containerClassName="text-3xl font-bold text-center mb-12"
@@ -248,7 +248,7 @@ export default function PatientsPage() {
       </section>
 
       {/* Privacy & Security */}
-      <section className="min-h-screen flex items-center">
+      <section className="py-12 lg:py-16">
         <div className="container mx-auto px-4">
           <ScrollReveal 
             containerClassName="text-3xl font-bold text-center mb-12"
@@ -290,7 +290,7 @@ export default function PatientsPage() {
       </section>
 
       {/* Testimonials */}
-      <section className="min-h-screen flex items-center bg-slate-50">
+      <section className="py-12 lg:py-16 bg-slate-50">
         <div className="container mx-auto px-4">
           <ScrollReveal 
             containerClassName="text-3xl font-bold text-center mb-12"
@@ -342,7 +342,7 @@ export default function PatientsPage() {
       </section>
 
       {/* Early Access Program */}
-      <section className="min-h-screen flex items-center bg-gradient-to-r from-brand to-brand-hover text-white">
+      <section className="py-16 lg:py-20 bg-gradient-to-r from-brand to-brand-hover text-white">
         <div className="container mx-auto px-4 text-center">
           <ScrollReveal 
             containerClassName="text-4xl font-bold mb-6"

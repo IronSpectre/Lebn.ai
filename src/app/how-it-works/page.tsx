@@ -1,7 +1,7 @@
 export default function HowItWorksPage() {
   return (
     <>
-      <section className="min-h-screen flex items-center">
+      <section className="py-12 lg:py-16">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center mb-12">How Lebn.ai Works</h1>
           <div className="max-w-3xl mx-auto">
@@ -14,7 +14,7 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      <section className="min-h-screen flex items-center bg-slate-50">
+      <section className="py-12 lg:py-16 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-semibold mb-4">Intelligent Clarification</h2>
@@ -26,7 +26,7 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      <section className="min-h-screen flex items-center">
+      <section className="py-12 lg:py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-semibold mb-4">GP-Ready Documentation</h2>
@@ -38,7 +38,7 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      <section className="min-h-screen flex items-center bg-slate-50">
+      <section className="py-12 lg:py-16 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-semibold mb-4">Your Data, Your Control</h2>

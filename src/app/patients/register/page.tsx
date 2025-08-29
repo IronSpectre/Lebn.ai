@@ -99,7 +99,7 @@ export default function PatientsRegisterPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-blue-50">
+    <div className="bg-gradient-to-br from-green-50 via-white to-blue-50">
       {/* Animated background pattern */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(34,197,94,0.3),transparent_50%)]"></div>
@@ -108,7 +108,7 @@ export default function PatientsRegisterPage() {
         <div className="absolute -bottom-8 left-20 w-72 h-72 bg-teal-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       </div>
 
-      <section className="relative min-h-screen flex items-center pt-28 md:pt-36">
+      <section className="relative py-28 md:py-36">
         <div className="container mx-auto px-4">
           <ScrollReveal 
             containerClassName="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent"

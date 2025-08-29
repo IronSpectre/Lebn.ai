@@ -109,7 +109,7 @@ export default function PrivateGPsRegisterPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-cyan-50">
+    <div className="bg-gradient-to-br from-indigo-50 via-white to-cyan-50">
       {/* Animated background pattern */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(99,102,241,0.3),transparent_50%)]"></div>
@@ -118,7 +118,7 @@ export default function PrivateGPsRegisterPage() {
         <div className="absolute -bottom-8 left-20 w-72 h-72 bg-violet-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       </div>
 
-      <section className="relative min-h-screen flex items-center pt-28 md:pt-36">
+      <section className="relative py-28 md:py-36 pt-28 md:pt-36">
         <div className="container mx-auto px-4">
           <ScrollReveal 
             containerClassName="text-4xl font-bold text-center mb-4 bg-gradient-to-r from-indigo-600 to-cyan-600 bg-clip-text text-transparent"

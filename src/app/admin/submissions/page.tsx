@@ -25,7 +25,7 @@ export default async function AdminSubmissionsPage() {
     submissions.contacts.length
 
   return (
-    <div className="min-h-screen bg-slate-50 py-12">
+    <div className="bg-slate-50 py-12">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-start mb-8">
           <div>
