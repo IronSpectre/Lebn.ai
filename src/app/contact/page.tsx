@@ -87,7 +87,7 @@ export default function ContactPage() {
           </ScrollReveal>
           
           <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto text-lg">
-            Have questions about Lebn? Want to learn more about our pilot programs? We'd love to hear from you.
+            Have questions about Lebn? Want to learn more about our pilot programs? We&rsquo;d love to hear from you.
           </p>
 
           <div className="max-w-4xl mx-auto">
@@ -240,7 +240,7 @@ export default function ContactPage() {
               {submitStatus === 'success' && (
                 <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg">
                   <p className="text-green-800 text-sm">
-                    ✓ Your message has been sent successfully! We'll get back to you within 24 hours.
+                    ✓ Your message has been sent successfully! We&rsquo;ll get back to you within 24 hours.
                   </p>
                 </div>
               )}

@@ -220,7 +220,7 @@ export default function CareHomesRegisterPage() {
               <div className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-2">
-                    What's the biggest challenge in keeping resident records up to date?
+                    What&rsquo;s the biggest challenge in keeping resident records up to date?
                   </label>
                   <textarea
                     name="biggestChallenge"
@@ -443,7 +443,7 @@ export default function CareHomesRegisterPage() {
                 Submit Registration
               </button>
               <p className="mt-4 text-sm text-slate-600">
-                We'll review your application and contact you within 2 business days
+                We&rsquo;ll review your application and contact you within 2 business days
               </p>
             </div>
           </form>

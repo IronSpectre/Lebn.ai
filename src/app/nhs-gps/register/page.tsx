@@ -223,7 +223,7 @@ export default function NHSGPsRegisterPage() {
 
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-2">
-                    How often is key information missing from the patient's recall? *
+                    How often is key information missing from the patient&rsquo;s recall? *
                   </label>
                   <div className="space-y-2">
                     {['Rarely', 'Occasionally', 'Frequently'].map(option => (
@@ -329,7 +329,7 @@ export default function NHSGPsRegisterPage() {
               
               <div className="bg-gradient-to-r from-green-50 to-blue-50 border border-green-200 rounded-lg p-4 mb-6">
                 <p className="text-sm text-green-800">
-                  <strong>What's Included:</strong> 3-month free trial, staff training, technical support, 
+                  <strong>What&rsquo;s Included:</strong> 3-month free trial, staff training, technical support, 
                   feedback sessions, and input into NHS-specific features. No commitment beyond the pilot period.
                 </p>
               </div>

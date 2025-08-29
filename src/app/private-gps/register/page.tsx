@@ -226,7 +226,7 @@ export default function PrivateGPsRegisterPage() {
               <div className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-2">
-                    What's your biggest challenge with patient consultations?
+                    What&rsquo;s your biggest challenge with patient consultations?
                   </label>
                   <textarea
                     name="biggestChallenge"

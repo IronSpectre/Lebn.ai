@@ -391,7 +391,7 @@ export default function PrivateGPsPage() {
                       <span key={i} className="text-yellow-500">★</span>
                     ))}
                   </div>
-                  <p className="text-slate-700 mb-4 italic">"{testimonial.quote}"</p>
+                  <p className="text-slate-700 mb-4 italic">&ldquo;{testimonial.quote}&rdquo;</p>
                   <div>
                     <div className="font-semibold">{testimonial.author}</div>
                     <div className="text-sm text-slate-600">{testimonial.role}</div>

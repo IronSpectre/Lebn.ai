@@ -230,7 +230,7 @@ export default function CareHomesPage() {
                     </div>
                     <div>
                       <div className="font-semibold mb-1">11:35 PM - Staff tells Lebn</div>
-                      <p className="text-slate-600 italic">"Resident found on floor, mild bruise on right hip, vital signs stable, gave paracetamol"</p>
+                      <p className="text-slate-600 italic">&ldquo;Resident found on floor, mild bruise on right hip, vital signs stable, gave paracetamol&rdquo;</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
@@ -239,7 +239,7 @@ export default function CareHomesPage() {
                     </div>
                     <div>
                       <div className="font-semibold mb-1">8:00 AM - GP receives summary</div>
-                      <p className="text-slate-600">Complete incident report ready for GP's morning visit with full context and timeline</p>
+                      <p className="text-slate-600">Complete incident report ready for GP&rsquo;s morning visit with full context and timeline</p>
                     </div>
                   </div>
                 </div>

@@ -172,7 +172,7 @@ export default function HomePage() {
             >
               Everything You Need for Better Health Communication
             </ScrollReveal>
-            <FadeContent delay={0.1} y={20} blur={15}>
+            <FadeContent delay={100} blur={true}>
               <p className="text-center text-slate-600 mb-12 px-4 sm:px-8 lg:px-20 xl:px-40">
                 Powerful features designed for real-world healthcare needs, from patient symptom tracking to clinical documentation.
               </p>
@@ -209,9 +209,9 @@ export default function HomePage() {
             >
               Tailored Solutions for Every Healthcare Need
             </ScrollReveal>
-            <FadeContent delay={0.1} y={20} blur={15}>
+            <FadeContent delay={100} blur={true}>
               <p className="text-center text-slate-600 mb-12 px-4 sm:px-8 lg:px-20 xl:px-40">
-                Whether you're a patient seeking better health management or a healthcare provider looking to improve efficiency, we have the right solution for you.
+                Whether you&rsquo;re a patient seeking better health management or a healthcare provider looking to improve efficiency, we have the right solution for you.
               </p>
             </FadeContent>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 lg:gap-5">
@@ -365,7 +365,7 @@ export default function HomePage() {
                     <span key={i} className="text-yellow-500">★</span>
                   ))}
                 </div>
-                <p className="text-slate-700 mb-4 italic">"{testimonial.quote}"</p>
+                <p className="text-slate-700 mb-4 italic">&ldquo;{testimonial.quote}&rdquo;</p>
                 <div className="border-t pt-4">
                   <div className="font-semibold">{testimonial.author}</div>
                   <div className="text-sm text-slate-600">{testimonial.role}</div>
@@ -391,7 +391,7 @@ export default function HomePage() {
             >
               Seamless Integration with Your Systems
             </ScrollReveal>
-            <FadeContent delay={0.1} y={20} blur={15}>
+            <FadeContent delay={100} blur={true}>
               <p className="text-center text-slate-600 mb-12 px-4 sm:px-8 lg:px-20 xl:px-40">
                 Lebn.ai works with the healthcare systems you already use, ensuring smooth workflows and data compatibility.
               </p>

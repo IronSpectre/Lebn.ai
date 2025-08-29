@@ -208,7 +208,7 @@ export default function PatientsRegisterPage() {
               <div className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-2">
-                    What's your biggest frustration with managing your health information?
+                    What&rsquo;s your biggest frustration with managing your health information?
                   </label>
                   <textarea
                     name="biggestFrustration"

@@ -22,7 +22,7 @@ const createTransporter = () => {
   }
   
   // Fallback to Ethereal for testing (creates a test account)
-  return nodemailer.createTransporter({
+  return nodemailer.createTransport({
     host: 'smtp.ethereal.email',
     port: 587,
     auth: {

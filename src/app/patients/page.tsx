@@ -210,7 +210,7 @@ export default function PatientsPage() {
             <FadeContent delay={200} blur={true} duration={800}>
               <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden">
                 <div className="bg-slate-50 p-6 border-b">
-                  <h3 className="font-semibold text-xl">Emma's Asthma Check-Up</h3>
+                  <h3 className="font-semibold text-xl">Emma&rsquo;s Asthma Check-Up</h3>
                 </div>
                 <div className="p-6 space-y-6">
                   <div className="flex gap-4">
@@ -219,7 +219,7 @@ export default function PatientsPage() {
                     </div>
                     <div>
                       <div className="font-semibold mb-1">Week Before Appointment</div>
-                      <p className="text-slate-600">Emma tells Lebn about increased inhaler use, nighttime symptoms, and new triggers she's noticed</p>
+                      <p className="text-slate-600">Emma tells Lebn about increased inhaler use, nighttime symptoms, and new triggers she&rsquo;s noticed</p>
                     </div>
                   </div>
                   <div className="flex gap-4">
@@ -237,7 +237,7 @@ export default function PatientsPage() {
                     </div>
                     <div>
                       <div className="font-semibold mb-1">At the GP Appointment</div>
-                      <p className="text-slate-600">GP instantly understands Emma's situation, adjusts treatment plan, and focuses on solutions - all in a 10-minute slot</p>
+                      <p className="text-slate-600">GP instantly understands Emma&rsquo;s situation, adjusts treatment plan, and focuses on solutions - all in a 10-minute slot</p>
                     </div>
                   </div>
                 </div>
@@ -329,7 +329,7 @@ export default function PatientsPage() {
                       <span key={i} className="text-yellow-500">★</span>
                     ))}
                   </div>
-                  <p className="text-slate-700 mb-4 italic">"{testimonial.quote}"</p>
+                  <p className="text-slate-700 mb-4 italic">&ldquo;{testimonial.quote}&rdquo;</p>
                   <div>
                     <div className="font-semibold">{testimonial.author}</div>
                     <div className="text-sm text-slate-600">{testimonial.location}</div>

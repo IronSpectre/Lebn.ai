@@ -3,7 +3,7 @@
 import React, { useRef, useEffect } from "react";
 import { Renderer, Program, Mesh, Triangle } from "ogl";
 
-interface PlasmaBackgroundProps extends React.HTMLAttributes<HTMLDivElement> {
+interface PlasmaBackgroundProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'color'> {
   color?: [number, number, number];
   speed?: number;
   scale?: number;
