@@ -2,6 +2,9 @@ import React from 'react'
 import { prisma } from '@/lib/prisma'
 import { ExportButtons } from '@/components/ExportButtons'
 
+// Opt out of static generation since this page needs database access
+export const dynamic = 'force-dynamic'
+
 async function getSubmissions() {
   const [careHomes, patients, privateGPs, nhsGPs, contacts] = await Promise.all([
     prisma.careHomeSubmission.findMany({ orderBy: { createdAt: 'desc' } }),
